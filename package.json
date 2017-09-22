@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.0",
     "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2"
   }
 }
